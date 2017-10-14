@@ -7,11 +7,11 @@ using namespace std;
 void xks()
 
 {
-    int pqwemn5sdh; cout<<"provide number" ;cin>> pqwemn5sdh;     int  sdnf =   1, asnqw = 2;
-    while (asnqw <= sqrt(pqwemn5sdh) && sdnf != 0)          { sdnf = pqwemn5sdh % asnqw;
-        ++asnqw                                            ;}
+    int pqwemn5sdh; cout<<"provide number" ;cin>> pqwemn5sdh;    int  pqwamn5sdh=   1, pqwenm5sdh = 2;
+while (pqwenm5sdh <=sqrt( pqwemn5sdh) && pqwamn5sdh != 0)          { pqwamn5sdh = pqwemn5sdh % pqwenm5sdh;
+        ++pqwenm5sdh                                            ;}
 
-    if (sdnf == 0)         {
+    if (pqwamn5sdh == 0)         {
         cout << "NO";} else {cout << "YES"                   ;}}
 
 
