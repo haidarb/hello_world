@@ -5,13 +5,13 @@
 #include "GenerateRandomReal.h"
 #include "ApproximatingPi.h"
 #include "PseudorandomGenerator.h"
+#include "BoxMuller.h"
 
 using namespace std;
 
 int main() {
 
-    cout << "Approximation of pi:" << providePi(100000) << endl;
-    generateLCG();
+    checkBoxMullerFunction();
 }
 
 
