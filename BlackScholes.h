@@ -20,7 +20,7 @@ void BlackScholesOptionPrice(){
     cout << "Please provide strike price: "; cin >>  K;
     cout << "Please provide price of underlying asset now (at t=0): "; cin >>  So;
     cout << "Please provide standard deviation: "; cin >>  stdev;
-    cout << "Please provide risk-free interest rate in a convention that 1 = 0.01 : "; cin >>  r;
+    cout << "Please provide risk-free interest rate in absolute terms (eg 0.01): "; cin >>  r;
 
     for (i = 0; i < iter; i++) {
 
