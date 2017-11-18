@@ -7,12 +7,14 @@
 #include "PseudorandomGenerator.h"
 #include "BoxMuller.h"
 #include "BlackScholes.h"
+#include "BubbleSorting.h"
 
 using namespace std;
 
 int main() {
 
-    BlackScholesOptionPrice();
+    int arr[5] = {1,7,-5,50,2};
+    bubbleSort();
 
 }
 
