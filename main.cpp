@@ -6,13 +6,14 @@
 #include "ApproximatingPi.h"
 #include "PseudorandomGenerator.h"
 #include "BoxMuller.h"
+#include "BlackScholes.h"
 
 using namespace std;
 
 int main() {
 
-    checkBoxMullerFunction();
-    
+    BlackScholesOptionPrice();
+
 }
 
 
